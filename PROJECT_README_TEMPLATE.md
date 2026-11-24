@@ -113,8 +113,11 @@ A-ResearchIQ-Multimodal-Assistant/
 ├── data/papers/         # Input PDFs
 ├── evals/               # Evaluation resources
 ├── goldens/             # Evaluation examples
+├── main.py
 ├── streamlit_app.py
 ├── pyproject.toml
+├── requirements.txt
+├── uv.lock
 └── README.md
 ```
 
