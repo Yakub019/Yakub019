@@ -1,64 +1,45 @@
-<div align="center">
-
 # Yakub Bukya
 
-### Aspiring AI Engineer · LLM Applications · RAG · Agentic Systems
-
+**Aspiring AI Engineer · LLM Applications · RAG · Agentic Systems**  
 I build practical AI projects focused on retrieval, grounded answers, and useful agent workflows.
 
-[Projects](#selected-projects) · [Toolkit](#toolkit) · [More experiments](#more-experiments) · [GitHub](https://github.com/Yakub019?tab=repositories)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square) ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square) ![Ollama](https://img.shields.io/badge/Ollama-111111?style=flat-square) ![ChromaDB](https://img.shields.io/badge/ChromaDB-5B43D6?style=flat-square) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/YOUR_LINKEDIN/) [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL@example.com)
 
-</div>
+## Current focus
 
-## Selected projects
+- Building agentic RAG systems with conditional retrieval
+- Multimodal document question answering with citations
+- Structured LLM outputs and inspectable workflows
 
-### [ResearchIQ — multimodal research assistant](https://github.com/Yakub019/A-ResearchIQ-Multimodal-Assistant)
-An interactive assistant for asking questions about academic papers. Its RAG pipeline processes PDF text and figure descriptions, retrieves relevant passages, and returns answers with source and page citations.
+**Seeking AI Engineer opportunities** in LLM applications, RAG, and agents.
 
-**Engineering highlights:** Docling document processing · HybridChunker · image-aware retrieval · ChromaDB · Streamlit chat UI
+## Featured projects
 
-### [Agentic RAG — conditional retrieval with LangGraph](https://github.com/Yakub019/Agentic-Rag)
-A local-first workflow that routes each question and retrieves transcript context only when the question needs it. The workflow exposes its routing decision and retrieved context, and asks for grounded answers when documents are used.
-
-**Engineering highlights:** LangGraph routing · Chroma semantic search · Ollama with Qwen3 · inspectable workflow
-
-### [Structured Outputs with HF LLMs](https://github.com/Yakub019/StructuredOutput_HF-llms)
-A collection of focused examples exploring structured model responses and JSON parsing.
+| Project | What it does | Stack | Links |
+|---|---|---|---|
+| [ResearchIQ](https://github.com/Yakub019/A-ResearchIQ-Multimodal-Assistant) | RAG over academic PDFs, including figure descriptions, with source and page citations. | Docling, HybridChunker, ChromaDB, Streamlit | [Repo](https://github.com/Yakub019/A-ResearchIQ-Multimodal-Assistant) · Demo: TBD · Diagram: TBD |
+| [Agentic RAG](https://github.com/Yakub019/Agentic-Rag) | Routes each question and retrieves transcript context only when needed; exposes routing and retrieved context. | LangGraph, Chroma, Ollama (Qwen3) | [Repo](https://github.com/Yakub019/Agentic-Rag) · Demo: TBD · [Diagram](https://github.com/Yakub019/Agentic-Rag#workflow) |
+| [Structured Outputs with HF LLMs](https://github.com/Yakub019/StructuredOutput_HF-llms) | Examples of structured model responses and JSON parsing. | Hugging Face, Python | [Repo](https://github.com/Yakub019/StructuredOutput_HF-llms) · Demo: TBD · Diagram: TBD |
 
 ## Toolkit
 
-| Area | Tools and concepts |
+| Area | Tools |
 |---|---|
 | Language | Python |
-| LLM applications | LangChain, LangGraph, Ollama |
+| LLM apps | LangChain, LangGraph, Ollama |
 | Retrieval and documents | RAG, ChromaDB, Docling, Hugging Face embeddings |
 | Interfaces | Streamlit |
-| Applied ML | Machine-learning project work in [machine-prediction-ml](https://github.com/Yakub019/machine-prediction-ml) |
+| Applied ML | [machine-prediction-ml](https://github.com/Yakub019/machine-prediction-ml) |
 
-## How I approach AI projects
+## How I build
 
-- **Ground responses in sources** when answering questions about documents.
-- **Retrieve conditionally** instead of running search for every query.
-- **Make workflows inspectable** by surfacing routing decisions and retrieved context.
-- **Build usable interfaces** so projects can be explored beyond a notebook.
+- Ground answers in sources
+- Retrieve conditionally, not on every query
+- Make workflows inspectable: show routing and retrieved context
+- Ship usable interfaces, not just notebooks
 
-<details>
-<summary><strong>More experiments</strong></summary>
+## Contact
 
-- [LLMOps RAG App](https://github.com/Yakub019/llmops-rag-app)
-- [Guardrails AI](https://github.com/Yakub019/guardrails-ai)
-- [Evolutions of Memory of Agents](https://github.com/Yakub019/Evolutions-of-Memory-of-agents)
-- [Chatbot with Memory](https://github.com/Yakub019/chatbot-with-memory)
-- [Advanced RAG Document Loader Practice](https://github.com/Yakub019/Adv-RAG-DocLoader-Practice)
+[LinkedIn](https://www.linkedin.com/in/YOUR_LINKEDIN/) · [Email](mailto:YOUR_EMAIL@example.com) · [Explore all repositories](https://github.com/Yakub019?tab=repositories)
 
-</details>
-
----
-
-<div align="center">
-
-**Seeking AI Engineer opportunities** focused on LLM applications, RAG, and agentic systems.
-
-[Explore all repositories](https://github.com/Yakub019?tab=repositories)
-
-</div>
+<!-- Replace YOUR_LINKEDIN and YOUR_EMAIL with your public contact details. Replace TBD with demo links as they become available. -->
